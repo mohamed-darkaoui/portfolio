@@ -1,0 +1,98 @@
+html, body{
+  background-color:#5BCCD9
+}
+
+
+
+
+
+
+.span{
+  color: red
+}
+
+.navbar-toggler {
+    border: none;
+  }
+
+  /* Hamburger-icoon drie lijnen */
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  /* Logo aanpassen qua grootte */
+  .navbar-brand img {
+    height: 40px ; /* Pas de grootte van je logo aan */
+  }
+
+  /* Achtergrondkleur aanpassen (donkerblauw) */
+  .donkerblauw {
+    background-color: #30728C !important; /* Donkerblauwe kleur */
+  }
+
+  .tekst-donkerblauw{
+
+    color:#30728C
+  }
+
+  .zwart {
+    background-color: #262626 ;}
+
+  .blauwgrijs{
+    background-color: #5BCCD9;
+
+  }  
+
+  .tekst-blauwgrijs {
+    color: #5BCCD9  ;}  
+
+  /* Plaats het hamburger-icoon rechts */
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  /* Items naast elkaar zetten */
+  .navbar-nav {
+    margin-left: auto;
+    flex-direction: row; /* Zorg dat de items horizontaal staan */
+  }
+
+  /* Styling voor de nav-items zodat ze mooi naast elkaar staan */
+  .nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .dropdown-menu{
+    background-color: #5BCCD9;
+  }
+
+  .text-black{
+    text-emphasis-color: #262626;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+      /* Styling voor afbeeldingen */
+      .image-container img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10px;
+        filter: grayscale(100%); /* Maakt de afbeelding zwart-wit */
+        transition: transform 0.5s, filter 0.5s ease-in-out; /* Animatie voor vergroting en kleur */
+      }
+  
+      /* Hover effect */
+      .image-container img:hover {
+        filter: grayscale(0%); /* Verwijdert zwart-wit en toont kleur */
+        transform: scale(1.1); /* Vergroot de afbeelding iets */
+      }
