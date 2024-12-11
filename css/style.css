@@ -1,9 +1,17 @@
 html, body{
-  background-color:#5BCCD9
+  background-color:#ffffff
 }
 
+.card-img {
+  height: 100%; 
+  object-fit: cover; 
+  width: 100%; 
+  border-radius: 0; 
+}
 
-
+.wit{
+  color:#ffffff
+}
 
 
 
@@ -64,7 +72,7 @@ html, body{
   }
 
   .dropdown-menu{
-    background-color: #5BCCD9;
+    background-color: #ffffff;
   }
 
   .text-black{
