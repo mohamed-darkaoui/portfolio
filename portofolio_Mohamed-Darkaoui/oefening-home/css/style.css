@@ -1,9 +1,17 @@
 html, body{
-  background-color:#5BCCD9
+  background-color:#ffffff
 }
 
+.card-img {
+  height: 100%; 
+  object-fit: cover; 
+  width: 100%; 
+  border-radius: 0; 
+}
 
-
+.wit{
+  color:#ffffff
+}
 
 
 
@@ -64,7 +72,7 @@ html, body{
   }
 
   .dropdown-menu{
-    background-color: #5BCCD9;
+    background-color: #ffffff;
   }
 
   .text-black{
@@ -96,3 +104,37 @@ html, body{
         filter: grayscale(0%); /* Verwijdert zwart-wit en toont kleur */
         transform: scale(1.1); /* Vergroot de afbeelding iets */
       }
+
+
+
+    aside .list-group-item:hover {
+      background-color: #f8f9fa;
+      border-radius: 5px;
+    }
+
+
+    aside a {
+      text-decoration: none;
+      color: #333;
+    }
+    
+    aside a:hover {
+      color: #0056b3;
+    }
+
+
+    aside {
+      position: sticky; /* Ensures the sidebar stays visible during scrolling */
+      top: 80px; /* Adjust to ensure it does not overlap with the navbar */
+    }
+    
+    aside h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    aside .list-group-item {
+      border: none;
+      padding: 10px;
+      transition: background-color 0.3s;
+    }
