@@ -9,6 +9,12 @@ html, body{
   border-radius: 0; 
 }
 
+
+.tekst-zwart{
+
+  color: rgb(0, 0, 0)
+}
+
 .wit{
   color:#ffffff
 }
